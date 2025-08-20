@@ -38,7 +38,7 @@ Example:
 -   Packet details are printed to the console and logged to `packet_log.log`.
 -   Each log entry includes timestamp, protocol, source/destination IP and port, packet length, and protocol-specific summary.
 
-### File Structure
+## File Structure
 
 -   `main.cpp` — Entry point, parses arguments and starts capture
 -   `src/PacketSniffer.cpp` — Handles packet capture loop
@@ -47,3 +47,7 @@ Example:
 -   `src/Logger.cpp` — Thread-safe logging to file
 -   `include/` — Header files for each component
 -   `Makefile` — Build instructions
+
+## License
+
+MIT License
